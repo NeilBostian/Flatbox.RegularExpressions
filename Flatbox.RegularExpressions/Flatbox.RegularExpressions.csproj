@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>A replacement for System.Text.RegularExpressions which supports RegexOptions.Compiled</Description>
+    <PackageProjectUrl>https://github.com/NeilBostian/Flatbox.RegularExpressions</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/NeilBostian/Flatbox.RegularExpressions/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/NeilBostian/Flatbox.RegularExpressions</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageReleaseNotes>First Release</PackageReleaseNotes>
+    <Authors>Neil Bostian</Authors>
+    <Company>Flatbox Studios</Company>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reflection" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.Emit" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.Emit.ILGeneration" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.3.0" />
+    <PackageReference Include="System.Security.Permissions" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>

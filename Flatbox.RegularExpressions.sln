@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatbox.RegularExpressions", "Flatbox.RegularExpressions\Flatbox.RegularExpressions.csproj", "{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatbox.RegularExpressions.Tests", "Flatbox.RegularExpressions.Tests\Flatbox.RegularExpressions.Tests.csproj", "{15138B4D-D470-4D93-954F-7CCE87B4BDE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		netcoreapp-Debug|Any CPU = netcoreapp-Debug|Any CPU
+		netcoreapp-Release|Any CPU = netcoreapp-Release|Any CPU
+		netstandard-Debug|Any CPU = netstandard-Debug|Any CPU
+		netstandard-Release|Any CPU = netstandard-Release|Any CPU
+		Release|Any CPU = Release|Any CPU
+		uap-Debug|Any CPU = uap-Debug|Any CPU
+		uap-Release|Any CPU = uap-Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.netcoreapp-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.netcoreapp-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.netcoreapp-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.netcoreapp-Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.netstandard-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.netstandard-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.netstandard-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.netstandard-Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.uap-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.uap-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.uap-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDEDDA7-4374-4447-AB59-DE2E4BB22D7F}.uap-Release|Any CPU.Build.0 = Release|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.netcoreapp-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.netcoreapp-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.netcoreapp-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.netcoreapp-Release|Any CPU.Build.0 = Release|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.netstandard-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.netstandard-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.netstandard-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.netstandard-Release|Any CPU.Build.0 = Release|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.uap-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.uap-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.uap-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15138B4D-D470-4D93-954F-7CCE87B4BDE6}.uap-Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7C4118D-AE4B-4831-9D30-812C34E94CA8}
+	EndGlobalSection
+EndGlobal
