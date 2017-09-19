@@ -10,7 +10,14 @@ View the [NuGet Page](https://www.nuget.org/packages/Flatbox.RegularExpressions)
 As seen in [various benchmarks](https://benchmarksgame.alioth.debian.org/u64q/regexredux.html), regex is unreasonably slow on .NET Standard. The reason for this is that compiling a regex at runtime requires System.Reflection.Emit. In .NET Framework this package was included with the runtime. With [.NET Native](https://docs.microsoft.com/en-us/dotnet/framework/net-native/), other packages in .NET Standard such as System.Text.RegularExpressions can't depend on System.Reflection.Emit or RegularExpressions wouldn't be able to run on .NET Native. The result is this package: a version of .NET Standard's [System.Text.RegularExpressions](https://github.com/dotnet/corefx/tree/master/src/System.Text.RegularExpressions/src/System/Text/RegularExpressions) which includes the compiled regex dependencies. [Read More](https://github.com/dotnet/corefx/issues/340)
 
 ### Benchmarks
-In computationally heavy regex, Flatbox.RegularExpressions can provide 300%+ speed improvements. Consider the following code which evaluates [this well known regex](http://www.regular-expressions.info/catastrophic.html):
+In computationally heavy regex, Flatbox.RegularExpressions can provide up to 200% speed improvements. On ubuntu 14.04 LTS, [regex-redux](https://benchmarksgame.alioth.debian.org/u64q/regexredux.html) ran 84% faster using Flatbox regex over System.Text.
+
+Platform | Duration
+--- | --- 
+System.Text | 29.6s
+Flatbox | 16.09
+
+Consider the following code which evaluates [this well known regex](http://www.regular-expressions.info/catastrophic.html):
 
     using System;
     using System.Diagnostics;
